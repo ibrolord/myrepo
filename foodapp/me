@@ -1,0 +1,19 @@
+<?php
+
+//change timezone
+date_default_timezone_set("America/Toronto");
+echo "The time is " . date("h:i:sa");
+$date = date("Y-m-d H:i:s", time());
+//timestamp
+$timestamp = date("H");
+
+if (($timestamp > 9) and ($timestamp < 22)) 
+	#code to check if time is ealier than 9 to 22 as OPEN andvice versa..
+	$status = "<span class='text-success'>We are OPEN </span>";
+
+else
+	$status = "<span class='text-close text-danger'>We are CLOSED </span>";
+
+//I added $staus to times for open or closed so customers know when the store is open automatically
+
+$htm = "
