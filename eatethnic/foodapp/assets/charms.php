@@ -70,7 +70,7 @@
                   <div class="col-xs-12">
                      <ol class="breadcrumb">
                         <li class=""><a href="index.php"><i class="fa fa-home"></i> </a></li>
-                        <li class=""><a>Restaurants </a></li>
+                        <li class=""><a href="index.php">Restaurants </a></li>
                         <li class="active"><span> Charm's Jerk Hut </span></li>
                      </ol>
                   </div>
