@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    font-family: 'Raleway';
+}
+/*Custom style for the page */
+.alert {
+  padding: 10px 30px;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.alert-custom{
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;
+}
+.close{
+    color: #fff;
+}
+
+/*Header section   */
+header{
+    width: 100%;
+    text-align: center;
+}
+
+header .logo__name{
+    font-size: 6em;
+    letter-spacing: 10px;
+    font-weight: bold;
+    line-height: 100px;
+    vertical-align: middle;
+    color: #000;
+}
+@media (max-width: 500px){
+    header .logo__name{
+        font-size: 4em;
+        line-height: 100px;
+    }
+}
+header .tagline{
+    font-size: 1.2em;
+    letter-spacing: 8px;
+}
+
+/*Shop Area section  */
+#shop-area{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#shop-area .row{
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#shop-area .shop-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+#shop-area ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+#shop-area ul li{
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+#shop-area a{
+    padding: 10px 15px;
+    border: 2px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: inline-block;
+}
+#shop-area a:hover{
+    padding: 10px 15px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+/*Footer Section  */
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer ul{
+    display: inline-block;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+footer h5{
+    color: #ccc;
+}
+
+/* Browser fixes */
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
