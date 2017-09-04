@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Owl Carousel 2</title>
+
+		<link rel="stylesheet" href="../src/js/owl-carousel/owl.carousel.scss">
+		<link rel="stylesheet" href="../src/js/owl-carousel/owl.theme.default.scss">
+		
+		<script src="../node_modules/jquery/dist/jquery.js"></script>
+		<script src="../node_modules/qunitjs/qunit/qunit.js"></script>
+		<script src="../src/js/owl.carousel.js" data-cover></script>
+		<script src="../src/js/owl.support.js" data-cover></script>
+		<script src="unit/core.js" defer></script>
+	</head>
+	<body>
+		<div id="qunit"></div>
+		<div id="qunit-fixture">
+
+			<ul id="simple" class="owl-carousel owl-carousel owl-theme">
+				<li><img src="01b.jpg"> </li>
+				<li><img src="01c.jpg"  > </li>
+				<li><img src="01d.jpg" ></li>
+			</ul>
+
+		</div>
+        
+        <script>
+            $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+        </script>
+        
+	</body>
+</html>
