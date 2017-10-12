@@ -204,7 +204,9 @@ content:"\e080";
     font-weight: bold;
 }
 #menu-list .menu-info p{
+    height: 100px;
     color: #000;
+    text-overflow: ellipsis;
 }
 #menu-list .menu-item span{
     position: absolute;
