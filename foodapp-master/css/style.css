@@ -73,6 +73,7 @@ header .tagline{
     font-size: 1.2em;
 }
 #shop-area .shop-info a{
+    box-sizing: border-box;
     padding: 10px 15px;
     border: 2px solid #000;
     color: #000;
@@ -81,10 +82,16 @@ header .tagline{
     display: inline-block;
 }
 #shop-area .shop-info a:hover{
-    padding: 10px 15px;
-    border: 2px solid #000;
     background-color: #000;
     color: #fff;
+}
+#shop-area .shop-info a.btn-call{
+    background-color: #000;
+    color: #fff;
+}
+#shop-area .shop-info a.btn-call:hover{
+    background-color: #fff;
+    color: #000;
 }
 /*Footer Section  */
 footer{
@@ -165,8 +172,7 @@ nav .brand{
     clear: both;
 }
 #menu-list .panel-body a{
-    float: right;
-    
+/*    float: right; */
 }
 
 #menu-list .panel-heading a:after {
@@ -194,6 +200,7 @@ content:"\e080";
     height: 150px;
 }
 #menu-list .menu-info{
+    height: 180px;
     border: 1px solid #f5f5f5;
     border-top: 0;
     padding: 10px;
@@ -204,7 +211,7 @@ content:"\e080";
     font-weight: bold;
 }
 #menu-list .menu-info p{
-    height: 100px;
+/*    height: 100px;*/
     color: #000;
     text-overflow: ellipsis;
 }
@@ -294,4 +301,9 @@ content:"\e080";
     background-color:#aaa;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
+}
+
+.btn-recipe{
+    padding: 2px 10px;
+/*    background-color: #000;*/
 }
